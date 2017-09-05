@@ -46,7 +46,8 @@ body{
   padding-top: 20px;
   padding-right: 5%;
   vertical-align: middle;
-  width: 300px;
+  //width: 300px;
+  width: 350px;
 }
 
 .logos2{
@@ -97,6 +98,7 @@ body{
 
 #menu .nav{
   width: auto;
+  //width: 100px;
 }
 
 .nav-tabs .dropdown a:hover{
@@ -125,6 +127,7 @@ body{
 
 .carousel-inner{
   width: 90%;
+  //width: 85%;
 }
 
 .carousel-inner .item{
@@ -197,6 +200,8 @@ body{
 	background-image: none;
 	background-repeat: no-repeat;
 	text-shadow: none;
+	width: 20px;
+	//height: 20px;
 }
 
 #carousel .carousel-control .fa-angle-left, 

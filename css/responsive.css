@@ -2,6 +2,9 @@
 	.logos2 i{
     color: #ff5d45;
   }
+  #logo1{
+  	width: 350px;
+  }
 }
 
 @media (max-width: 1190px) {
