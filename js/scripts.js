@@ -9,7 +9,7 @@
   });
   
   //回最上面
-  var offset = 200;
+  var offset = 100; //200
   var duration = 500;
   $(window).scroll(function() {
         if ($(this).scrollTop() > offset) {
