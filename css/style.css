@@ -10,8 +10,7 @@ text-decoration:none !important;
 }
 
 .pre{
-	white-space: pre-line;
-	width: 300px;
+	word-wrap: break-word;
 }
 
 body{
