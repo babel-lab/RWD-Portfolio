@@ -27,7 +27,7 @@
 
 @media (max-width: 1101px) {
 	#top, #container{
-	  width: 80%//65%;
+	  width: 80%;
 	}
 	.logos2 i{
     color: #f590a7;
@@ -37,9 +37,18 @@
   }
 }
 
+@media (max-width: 1040px) {
+	#top, #container{
+	  width: 85%;
+	}
+	.logos2 i{
+    color: #f1454e;
+  }
+}
+
 @media (max-width: 1001px) {
 	#top, #container{
-	  width: 90%; //70%;
+	  width: 90%;
 	}
   .logos2 i{
     color: #ffc166;
