@@ -48,7 +48,7 @@
 
 @media (max-width : 900px) {
   #top, #container{
-	  width: 95%;//100%;
+	  width: 100%;
 	}
 	#top{
 		position: fixed;
