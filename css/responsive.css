@@ -46,6 +46,15 @@
   }
 }
 
+@media (max-width: 950px) {
+	#top, #container{
+	  width: 95%;
+	}
+  .logos2 i{
+    color: #ff9933;
+  }
+}
+
 @media (max-width : 900px) {
   #top, #container{
 	  width: 100%;

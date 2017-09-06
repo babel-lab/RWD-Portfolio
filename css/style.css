@@ -100,8 +100,9 @@ body{
   color: #a0a0a0;
 }
 
-#menu .nav{
+#menu .nav .dropdown-toggle{
   width: auto;
+  background: none !important;
 }
 
 #container{
