@@ -9,7 +9,7 @@ a:hover, a:visited{
 text-decoration:none !important;
 }
 
-.pre{
+p{
 	word-wrap: break-word;
 }
 
