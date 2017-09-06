@@ -28,10 +28,10 @@
 	      <a href="#" class="theme" onclick="window.open('https://store.line.me/themeshop/author/94897');">LINE主題</a> |
 	      <a href="#" class="webtoon" onclick="window.open('http://www.webtoons.com/zh-hant/challenge/%E6%88%91%E7%9A%84%E8%80%81%E5%A9%86%E6%98%AF%E7%B1%B3%E8%9F%B2/list?title_no=26683');" title="WEBTOON\漫畫">米蟲老婆四格漫畫</a> |
 	      <a href="#" class="github" onclick="window.open('https://www.facebook.com/babel.lab/photos/a.569284269792146.1073741825.563408687046371/1419960188057879/?type=3&theater');">用GITHUB製作靜態網站(漫畫版)</a>
-	    </span>
+	    </span>	    
 	    <div id="menu">
-	      <ul class="nav nav-tabs">
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" >作品集選單<span class="caret"></span></a>
+	      <ul class="nav"><!-- nav-tabs -->
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" onclick="$('.dropdown').tab('show');" >作品集選單<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#tab" onclick="$('.nav-pills li:nth-child(1) a').tab('show');">LINE貼圖</li>
 			        <li><a href="#tab" onclick="$('.nav-pills li:nth-child(2) a').tab('show');">LINE主題</a></li>
@@ -44,7 +44,8 @@
             </ul>
           </li>
         </ul>
-      </div><!-- menu -->
+      </div>
+      <!-- menu -->
 	  </div><!-- logo1 -->
 	</div><!-- top1 -->
 </div><!-- top -->

@@ -39,7 +39,7 @@
 
 @media (max-width: 1001px) {
 	#top, #container{
-	  width: 85%; //70%;
+	  width: 90%; //70%;
 	}
   .logos2 i{
     color: #ffc166;

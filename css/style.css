@@ -102,11 +102,6 @@ body{
 
 #menu .nav{
   width: auto;
-  //width: 100px;
-}
-
-.nav-tabs .dropdown a:hover{
-  //background: #c4e5f5 !important;
 }
 
 #container{
