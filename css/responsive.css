@@ -27,10 +27,13 @@
 
 @media (max-width: 1101px) {
 	#top, #container{
-	  width: 65%;
+	  width: 60%;
 	}
 	.logos2 i{
     color: #f590a7;
+  }
+  #logo1{
+  	width: 300px;
   }
 }
 
@@ -45,7 +48,7 @@
 
 @media (max-width : 900px) {
   #top, #container{
-	  width: 100%;
+	  width: 95%;//100%;
 	}
 	#top{
 		position: fixed;
