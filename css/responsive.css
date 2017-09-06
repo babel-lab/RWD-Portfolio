@@ -55,7 +55,10 @@
 		z-index: 999;
 		top: 0;
 		left: 0;
-	  height: 80px;
+	  height: 70px; //80PX
+  }
+  #logo1{
+  	width: 280px;
   }
   #logo .logos1{
   	font-size: 38px;

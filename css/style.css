@@ -9,6 +9,11 @@ a:hover, a:visited{
 text-decoration:none !important;
 }
 
+.pre{
+	white-space: pre-line;
+	width: 300px;
+}
+
 body{
 	font-family: font-family: "Microsoft JhengHei", "微軟正黑體",'Comfortaa', Arial,Helvetica, sans-serif;
   font-size: 16px;
