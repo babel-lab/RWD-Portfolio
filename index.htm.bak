@@ -17,7 +17,7 @@
 </head>
 <body>
 <div id="top">
-	<div id="top1"  class="row">
+	<div id="top1" class="row">
 	  <div id="logo" ><h1></h1><span class="logos1">Babel</span> <span class="logos2">的圖文<i class="fa fa-magic" aria-hidden="true"></i>漫畫</span></div>
 	  <div id="logo1">
 	  	<a class="email" href="mailto:Hola.Babel@gmail.com?subject=Contact" title="聯絡信箱"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> Hola.Babel@gmail.com</a>
@@ -346,7 +346,7 @@
 
   <div id="tab">
     <div id="tab1">
-    	<h1 id="portfolio">Portfolio 作品集</h1>
+    	<h1>Portfolio 作品集</h1>
       <p></p>
       <ul class="nav nav-pills red">
         <!--<li><a data-toggle="pill" href="#home">Home</a></li>-->
