@@ -6,6 +6,13 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta http-equiv="content-language" content="zh-tw">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- You can use open graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="https://babel-lab.github.io/RWD-Portfolio/index.htm" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Babel設計" />
+  <meta property="og:description"   content="Babel的圖文X漫畫" />
+  <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
   <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
@@ -16,6 +23,14 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 <div id="top">
 	<div id="top1" class="row">
 	  <div id="logo"><h1></h1><span class="logos1">Babel</span> <span class="logos2">的圖文<i class="fa fa-magic" aria-hidden="true"></i>漫畫</span></div>
@@ -896,6 +911,7 @@
   <a href="#" class="back-to-top"><i class="fa fa-angle-up fa-2x"></i></a>
   <div id="footer">
     Babel 的圖文X漫畫作品集 <a href="mailto:Hola.Babel@gmail.com?subject=Contact" title="聯絡信箱"><i class="fa fa-envelope" aria-hidden="true"></i> Hola.Babel@gmail.com</a>
+    <div class="fb-like" data-href="https://babel-lab.github.io/RWD-Portfolio/index.htm" data-width="200" data-layout="button_count" data-action="recommend" data-size="small" data-show-faces="true" data-share="true"></div>
   </div>
 </div><!-- container -->
 <script>
