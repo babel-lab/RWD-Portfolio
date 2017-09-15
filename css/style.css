@@ -192,6 +192,11 @@ body{
   background-repeat:  no-repeat;
 }
 
+.carousel-inner .item13{
+  background: url(../img/carousel/carousel-bg13-02.png) right,url(../img/carousel/carousel-bg13-01.png) bottom, #FFCC33;
+  background-repeat:  no-repeat;
+}
+
 #carousel .carousel-control.left,
 #carousel .carousel-control.right {	
 	filter: alpha(opacity=100);
@@ -218,7 +223,7 @@ body{
 	right: 5px;
 }
 
-.desc, .text, .text02, .text03, .text04, .text05, .text06, .text07, .text08, .text09, .text10, .text11, .text12{
+.desc, .text, .text02, .text03, .text04, .text05, .text06, .text07, .text08, .text09, .text10, .text11, .text12, .text13{
   padding: 10px;
 }
 
@@ -233,7 +238,7 @@ body{
   display: none;
 }
 
-.text a, .text02 a, .text03 a, .text04 a, .text05 a, .text06 a, .text07 a, .text08 a, .text09 a, .text10 a, .text11 a, .text12 a{
+.text a, .text02 a, .text03 a, .text04 a, .text05 a, .text06 a, .text07 a, .text08 a, .text09 a, .text10 a, .text11 a, .text12 a, .text13 a{
 	z-index: 999 !important;
   font-size: 20px;
   text-align: center;
@@ -246,7 +251,7 @@ body{
   border-radius: 2em;  
 }
 
-.text a:hover, .text02 a:hover, .text03 a:hover, .text04 a:hover, .text05 a:hover, .text06 a:hover, .text07 a:hover, .text08 a:hover, .text09 a:hover, .text10 a:hover, .text11 a:hover, .text12 a:hover{
+.text a:hover, .text02 a:hover, .text03 a:hover, .text04 a:hover, .text05 a:hover, .text06 a:hover, .text07 a:hover, .text08 a:hover, .text09 a:hover, .text10 a:hover, .text11 a:hover, .text12 a:hover, .text13 a:hover{
   background: rgba(30, 240, 20, 1);
   border: 1px #00c16c solid;
   text-decoration: none;
@@ -305,6 +310,11 @@ body{
 .text12 a{
   background: #bae3fa;
   border-color: #67aed0;
+}
+
+.text13 a{
+  background: #FF6633;
+  border-color: #FF1A14;
 }
 
 #tab{
